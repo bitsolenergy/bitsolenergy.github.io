@@ -1,5 +1,5 @@
 // Hors ligne : la page est gardée en cache après la première ouverture.
-const CACHE = "etiquettes-v1";
+const CACHE = "etiquettes-v2";
 const FICHIERS = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FICHIERS))); self.skipWaiting(); });
 self.addEventListener("activate", e => {

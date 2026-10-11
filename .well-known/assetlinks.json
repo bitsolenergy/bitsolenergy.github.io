@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "fr.aibid.etiquettes",
+      "sha256_cert_fingerprints": [
+        "6A:C5:9E:DF:47:EE:53:74:59:B1:20:66:FB:9F:E4:4E:02:D0:36:C1:A8:42:86:12:FE:B0:6F:1F:55:42:5C:93"
+      ]
+    }
+  }
+]
